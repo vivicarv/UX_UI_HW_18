@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+.workGrid {
+  display: grid;
+  grid-area: myArea myArea;
+  grid-template-rows: 100px 300px;
+  grid-template-columns: auto auto;
+}
+
+@media only screen and (max-width: 600px){
+  display: flex;
+  flex-direction: column;
+  grid-template-areas: ;
+
+}
