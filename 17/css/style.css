@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+header {
+  background-color: white;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: black;
+  font-weight: 500;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: white;
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding-left: 20px;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 15px;
+  border-radius: 9px;
+}
+footer {
+  background-color: white;
+  padding: 5px;
+  color: black;
+}
+footer ul {
+  list-style: none;
+  text-align: center;
+ 
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
